@@ -1,0 +1,27 @@
+{
+  "name": "fast-user-api-example",
+  "version": "1.0.0",
+  "description": "FastUptime User API Example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fastuptime",
+    "fastuptime-api",
+    "fastuptime-api-example",
+    "fastuptime-user-api",
+    "fastuptime-user-api-example"
+  ],
+  "author": "Can & FastUptime",
+  "repository": "fastuptime/Fast_User_API_Example",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "croxydb": "^0.0.7",
+    "express": "^4.18.2",
+    "md5": "^2.3.0",
+    "moment": "^2.29.4"
+  }
+}
