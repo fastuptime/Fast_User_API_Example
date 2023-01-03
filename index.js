@@ -7,6 +7,7 @@ const moment = require("moment");
 const md5 = require("md5");
 const salt = "fastuptime";
 const adminpassword = "admin";
+
 ///////////////////////// Middleware /////////////////////////
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
